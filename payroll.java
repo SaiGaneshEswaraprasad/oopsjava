@@ -2,7 +2,7 @@ import java.util.*;
 
 class Employee {
     String name;
-    String employeeId;
+    String id;
     int baseSalary;
     int overtimeRate;
     int leaveBalance;
@@ -54,7 +54,7 @@ public class payroll {
         System.out.println("Enter employee name:");
         employee1.name = scanner.nextLine();
         System.out.println("Enter employee ID:");
-        employee1.employeeId = scanner.nextLine();
+        employee1.id = scanner.nextLine();
         System.out.println("Enter base salary:");
         employee1.baseSalary = scanner.nextInt();
         System.out.println("Enter overtime rate:");
@@ -63,7 +63,7 @@ public class payroll {
         employee1.leaveBalance = scanner.nextInt();
 
         // Interaction with the employee
-        System.out.println("\nEmployee Information:\n" + employee1.name + " - " + employee1.employeeId);
+        System.out.println("\nEmployee Information:\n" + employee1.name + " - " + employee1.id);
 
         // Requesting leave
         System.out.println("\nEnter the requested number of leaves: ")
