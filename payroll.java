@@ -66,10 +66,8 @@ public class payroll {
         System.out.println("\nEmployee Information:\n" + employee1.name + " - " + employee1.id);
 
         // Requesting leave
-        System.out.println("\nEnter the requested number of leaves: ")
         employee1.requestLeave(scanner);
-
-        System.out.println("\nEnter the overtime worked:")
+        
         // Recording overtime
         employee1.recordOvertime(scanner);
 
