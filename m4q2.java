@@ -1,16 +1,16 @@
-class m4q2 {
+class Shape {
     double length;
     double width;
     double height;
 
     // Constructor with one parameter
-    m4q2(double length) {
+    Shape(double length) {
         this.length = length;
         this.height = 1.0; // Default height to 1.0
     }
 
     // Constructor with two parameters
-    m4q2(double length, double width) {
+    Shape(double length, double width) {
         this.length = length;
         this.width = width;
         this.height = 1.0; // Default height to 1.0
@@ -18,11 +18,11 @@ class m4q2 {
 
     // Method to calculate volume
     void calculate() {
-        System.out.println("Volume of m4q2: " + (length * width * height));
+        System.out.println("Volume of Shape: " + (length * width * height));
     }
 }
 
-class Test extends m4q2 {
+class Test extends Shape {
     // Constructor with one parameter
     Test(double length) {
         super(length);
@@ -40,7 +40,7 @@ class Test extends m4q2 {
     }
 }
 
-public class M4Q2 {
+public class m4q2 {
     public static void main(String[] args) {
         Test m4q2A = new Test(5.0);
         m4q2A.calculate(); // Should print volume based on the constructor
