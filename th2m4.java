@@ -6,7 +6,7 @@ class A {
 }
 
 // D class inherits from A
-class D extends A {
+class D extends A { 
     void bark() {
         System.out.println("D is barking");
     }
