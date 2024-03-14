@@ -40,7 +40,7 @@ class Test extends Shape {
     }
 }
 
-public class m4q2 {
+public class M4Q2 {
     public static void main(String[] args) {
         Test m4q2A = new Test(5.0);
         m4q2A.calculate(); // Should print volume based on the constructor
