@@ -1,20 +1,20 @@
 // Using import package.classname:
 
-// File: MyClass.java (in package mypackage)
-package mypackage;
+// File: A.java (in package pack)
+package pack;
 
-public class MyClass {
-    public void display() {
-        System.out.println("Hello from MyClass!");
+public class A {
+    public void dis() {
+        System.out.println("Hello from A!");
     }
 }
 
 // File: Main.java (in a different package)
-import mypackage.MyClass;
+import pack.A;
 
 public class Main {
     public static void main(String[] args) {
-        MyClass obj = new MyClass();
-        obj.display();
+        A obj = new A();
+        obj.dis();
     }
 }

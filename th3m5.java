@@ -1,18 +1,18 @@
 // Using fully qualified name:
 
-// File: MyClass.java (in package mypackage)
-package mypackage;
+// File: A.java (in package pack)
+package pack;
 
-public class MyClass {
-    public void display() {
-        System.out.println("Hello from MyClass!");
+public class A {
+    public void dis() {
+        System.out.println("Hello from A!");
     }
 }
 
 // File: Main.java (in a different package)
 public class Main {
     public static void main(String[] args) {
-        mypackage.MyClass obj = new mypackage.MyClass();
-        obj.display();
+        pack.A obj = new pack.A();
+        obj.dis();
     }
 }
