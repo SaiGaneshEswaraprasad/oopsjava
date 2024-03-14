@@ -7,7 +7,7 @@ public class A {
     public void dis() {
         System.out.println("Hello from A!");
     }
-}
+} 
 
 // File: Main.java (in a different package)
 import pack.A;
